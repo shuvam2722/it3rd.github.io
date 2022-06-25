@@ -1,0 +1,47 @@
+body{  	margin: 0;  	padding: 0;  	background: url(AboutUS.jpg); background-size: cover;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(AboutUS.jpg); 
+ 	background-position: left;  	font-family: Century Gothic; 
+} 
+.login-box{ 
+ 	width: 650px;  	height: 350px;  	background: rgba(180,180,180,0.3);  	color: #fff;  	top: 50%;  	left: 27%;  	position: absolute;  	transform: translate(-50%,-50%);  	box-sizing: border-box;  	padding: 10px 30px; 
+} 
+h1{ 
+ 	margin: 0;  	padding: 0 0 20px;  	text-align: center;  	font-size: 22px; 
+} 
+.logo img
+{
+float: left;
+width: 150px;
+height: auto;
+border-radius: 50%;
+width: 150px;  	
+height: 150px; 
+}
+
+ul
+{
+float: right;
+list-style-type: none;
+margin-top:25px;
+}
+ul li
+{
+display: inline-block;
+}
+ul li a
+{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+ul li a:hover
+{
+background-color: #fff;
+color: #000;
+}
+ul li.active a
+{
+background-color: #fff;
+color: #000;

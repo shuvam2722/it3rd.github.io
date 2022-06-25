@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+/*
+.wrapper .button1{
+  padding: auto;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 50px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button1:hover{
+  width: 200px;
+}
+.wrapper .button1 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button1:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button1:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button1:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button1:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button1:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button1 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button1:hover .icon i{
+  color: #fff;
+}
+.wrapper .button1 span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button1:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button1:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button1:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button1:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button1:nth-child(5) span{
+  color: #ff0000;
+}
+.wrapper .button2{
+  padding: auto;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  
+  margin-left: 200px;
+  margin: 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button2:hover{
+  width: 200px;
+}
+.wrapper .button2 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button2:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button2:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button2:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button2:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button2:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button2 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button2:hover .icon i{
+  color: #fff;
+}
+.wrapper .button2 span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button2:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button2:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button2:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button2:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button2:nth-child(5) span{
+  color: #ff0000;
+}
+.wrapper .button3{
+    padding: auto;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button3:hover{
+    width: 200px;
+  }
+  .wrapper .button3 .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button3:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button3:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button3:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button3:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .wrapper .button3:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button3 .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button3:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button3 span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button3:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button3:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button3:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button3:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button3:nth-child(5) span{
+    color: #ff0000;
+  }
+  .wrapper .button4{
+    padding: auto;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button4:hover{
+    width: 200px;
+  }
+  .wrapper .button4 .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button4:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button4:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button4:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button4:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .wrapper .button4:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button4 .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button4:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button4 span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button4:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button4:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button4:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button4:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button4:nth-child(5) span{
+    color: #ff0000;
+  }
+  .wrapper .button5{
+    padding: auto;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button5:hover{
+    width: 200px;
+  }
+  .wrapper .button5 .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button5:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button5:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button5:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button5:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .wrapper .button5:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button5 .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button5:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button5 span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button5:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button5:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button5:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button5:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button5:nth-child(5) span{
+    color: #ff0000;
+  }  
+  */
+
+.rows
+{
+  display: flex;
+  justify-content: center;
+}
+.cards
+{
+  margin: 0.5%;
+  border: 1px solid black;
+}
+.cards .image
+{
+  width: 100%;
+}
+.cards .image img
+{
+  width: 100%;
+}
+.cards .buttons
+{
+  display: flex;
+  justify-content: center;
+}
+.cards .buttons a
+{
+  width: 40%;
+  text-align: center;
+}
+.cards .buttons a .icon i
+{
+  font-size: 200%;
+  padding: 1%;
+}
+/*
+.cards .buttons a .icon i
+{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.icon
+{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+*/
